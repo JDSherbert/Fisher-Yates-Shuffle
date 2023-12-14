@@ -10,7 +10,7 @@
     <a href = "https://learn.microsoft.com/en-us/cpp/c-language"> <img align="left" img height="40" img width="40" src="https://cdn.simpleicons.org/c"> </a>
   <a href = "https://learn.microsoft.com/en-us/dotnet/csharp"> <img align="left" img height="40" img width="40" src="https://cdn.simpleicons.org/csharp"> </a>
   <a href = "https://haxe.org/"> <img align="left" img height="40" img width="40" src="https://cdn.simpleicons.org/haxe"> </a>
-  <a href = "https://www.java.com/en/"> <img align="left" img height="40" img width="40" src="https://cdn.simpleicons.org/oracle"> </a>
+  <a href = "https://www.java.com/en/"> <img align="left" img height="40" img width="40" src="https://cdn.simpleicons.org/java"> </a>
   <a href = "https://www.javascript.com/"> <img align="left" img height="40" img width="40" src="https://cdn.simpleicons.org/javascript"> </a>
   <a href = "https://www.lua.org/docs.html"> <img align="left" height="40" img width="40" src="https://cdn.simpleicons.org/lua"> </a>
   <a href = "https://www.python.org/"> <img align="left" img height="40" img width="40" src="https://cdn.simpleicons.org/python"> </a>

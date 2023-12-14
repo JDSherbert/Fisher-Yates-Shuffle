@@ -32,13 +32,15 @@ public:
     /**
      * Fisher-Yates Shuffle Algorithm for shuffling elements in an array.
      * This algorithm guarantees a uniform random permutation.
-     * For more information, refer to the Fisher-Yates Shuffle algorithm described in:
-     * See https://en.wikipedia.org/wiki/Fisher%E2%80%93Yates_shuffle
+     * Returns a copy of the shuffled array.
+     * @note See Fisher-Yates Shuffle: https://en.wikipedia.org/wiki/Fisher%E2%80%93Yates_shuffle
      *
      * @tparam T The type of elements in the array.
-     * @tparam N The size of the array.
      * @param array The array to shuffle.
-     * @returns a copy of the original array, shuffled.
+     * @returns a copy of the shuffled array.
+     *
+     * @since 13/12/2023
+     * @author JDSherbert
      */
     template <typename T>
     static T FisherYates(const T& inputArray);

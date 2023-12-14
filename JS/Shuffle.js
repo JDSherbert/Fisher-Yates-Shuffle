@@ -4,6 +4,9 @@ const Shuffle =
 {
     // Fisher-Yates Shuffle Algorithm for shuffling elements in an array
     // This algorithm guarantees a uniform random permutation.
+    // Returns a copy of the shuffled array.
+    // Use by calling Shuffle.FisherYates(yourArray);
+    //
     // For more information, refer to the Fisher-Yates Shuffle algorithm described in:
     // See https://en.wikipedia.org/wiki/Fisher%E2%80%93Yates_shuffle
     FisherYates: function (array) 

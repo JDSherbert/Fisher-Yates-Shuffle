@@ -44,7 +44,4 @@ public:
      */
     template <typename T>
     static T FisherYates(const T& inputArray);
-
-}
-
 };

@@ -36,7 +36,29 @@
 
 -----------------------------------------------------------------------
 ## Overview
-Some words about the project here-
+The Fisher-Yates shuffle, also known as the Knuth shuffle, is a popular algorithm used to randomize the order of elements in an array. This algorithm efficiently generates a uniformly random permutation of the input array. The Fisher-Yates shuffle ensures that each permutation is equally likely, providing a uniform distribution of possible outcomes. Fisher-Yates shuffle is widely used in applications such as creating random games, shuffling decks of cards, and generating random test cases.
+
+Where possible, I have provided the means to shuffle elements in-place without requiring additional memory (for performance focused languages like C, C++, and C#, which are normally used in game engines like Unreal Engine or Unity). In other languages that aren't so performance critical, I've provided the means to simply copy the array and then shuffle the copy instead.
+
+In implementations where we can use Tuple Deconstruction, the time complexity is O(n), where n is the size of the array, as each element is visited and swapped once. Some languages do not support this, and usage (or non-usage) of this technique has been docuented in comments where required.
+
+It follows a common set of steps:
+
+- Start from the end of the array:
+- Initialize an index variable at the last element of the array.
+- Iterate through the array
+- Repeat the following steps until the first element of the array is reached.
+-- Generate a random index between 0 and the current index (inclusive).
+-- Swap the element at the current index with the element at the randomly generated index.
+- After these iterations, the array elements are shuffled, creating a random permutation.
+
+```react
+for n from n - 1 down to 1 do
+    k = random integer such that 0 <= k <= n
+    swap array[n] and array[k]
+```
+
+For more information on Fisher Yates Algorithm, please see here: https://en.wikipedia.org/wiki/Fisher%E2%80%93Yates_shuffle
 
 
 -----------------------------------------------------------------------

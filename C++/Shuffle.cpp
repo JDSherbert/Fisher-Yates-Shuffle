@@ -5,12 +5,15 @@
 /**
  * Fisher-Yates Shuffle Algorithm for shuffling elements in an array.
  * This algorithm guarantees a uniform random permutation.
- * For more information, refer to the Fisher-Yates Shuffle algorithm described in:
- * See https://en.wikipedia.org/wiki/Fisher%E2%80%93Yates_shuffle
+ * The array is shuffled in place.
+ * @note See Fisher-Yates Shuffle: https://en.wikipedia.org/wiki/Fisher%E2%80%93Yates_shuffle
  *
  * @tparam T The type of elements in the array.
  * @tparam N The size of the array.
  * @param array The array to shuffle.
+ *
+ * @since 13/12/2023
+ * @author JDSherbert
  */
 template <typename T, size_t N>
 void Shuffle::FisherYates(T (&array)[N]) 
@@ -28,4 +31,27 @@ void Shuffle::FisherYates(T (&array)[N])
         // Swap the elements at indices 'k' and 'n'
         std::swap(array[k], array[n]);
     }
+}
+
+/**
+ * Fisher-Yates Shuffle Algorithm for shuffling elements in an array.
+ * This algorithm guarantees a uniform random permutation.
+ * Returns a copy of the shuffled array.
+ * @note See Fisher-Yates Shuffle: https://en.wikipedia.org/wiki/Fisher%E2%80%93Yates_shuffle
+ *
+ * @tparam T The type of elements in the array.
+ * @param array The array to shuffle.
+ * @returns a copy of the shuffled array.
+ *
+ * @since 13/12/2023
+ * @author JDSherbert
+ */
+template <typename T>
+T Shuffle::FisherYates(const T& array) 
+{
+    // Create a copy of the array and shuffle it
+    T shuffledArray = array;
+    Shuffle::FisherYates(shuffledArray);
+
+    return shuffledArray;
 }

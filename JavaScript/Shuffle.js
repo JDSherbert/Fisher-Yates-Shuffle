@@ -16,10 +16,10 @@ const Shuffle =
 
         // Clone the array to avoid modifying the original
         const shuffledArray = array.slice();
-        for (let n = shuffledArray.length - 1; i > 0; i--) // Iterate through the array in reverse order
+        for (let n = shuffledArray.length - 1; n > 0; n--) // Iterate through the array in reverse order
         {
-            // Generate a random index 'j' between 0 and i (inclusive)
-            const k = Math.floor(Math.random() * (i + 1));
+            // Generate a random index 'k' between 0 and n (inclusive)
+            const k = Math.floor(Math.random() * (n + 1));
             // Swap (using tuple deconstruction) the elements at indices 'k' and 'n'
             [shuffledArray[k], shuffledArray[n]] = [shuffledArray[n], shuffledArray[k]];
         }

@@ -48,8 +48,8 @@ It follows a common set of steps:
 - Initialize an index variable at the last element of the array.
 - Iterate through the array
 - Repeat the following steps until the first element of the array is reached.
- - Generate a random index between 0 and the current index (inclusive).
- - Swap the element at the current index with the element at the randomly generated index.
+  - Generate a random index between 0 and the current index (inclusive).
+  - Swap the element at the current index with the element at the randomly generated index.
 - After these iterations, the array elements are shuffled, creating a random permutation.
 
 ```react

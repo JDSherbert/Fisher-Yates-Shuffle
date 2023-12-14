@@ -52,7 +52,7 @@ It follows a common set of steps:
   - Swap the element at the current index with the element at the randomly generated index.
 - After these iterations, the array elements are shuffled, creating a random permutation.
 
-```react
+```python
 for n from n - 1 down to 1 do
     k = random integer such that 0 <= k <= n
     swap array[n] and array[k]

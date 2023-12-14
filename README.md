@@ -12,6 +12,7 @@
   <a href = "https://haxe.org/"> <img align="left" img height="40" img width="40" src="https://cdn.simpleicons.org/haxe"> </a>
   <a href = "https://www.java.com/en/"> <img align="left" img height="40" img width="40" src="https://cdn.simpleicons.org/oracle"> </a>
   <a href = "https://www.javascript.com/"> <img align="left" img height="40" img width="40" src="https://cdn.simpleicons.org/javascript"> </a>
+  <a href = "https://www.typescriptlang.org/docs/"> <img align="left" img height="40" img width="40" src="https://cdn.simpleicons.org/typescript"> </a>
   <a href = "https://www.lua.org/docs.html"> <img align="left" height="40" img width="40" src="https://cdn.simpleicons.org/lua"> </a>
   <a href = "https://www.python.org/"> <img align="left" img height="40" img width="40" src="https://cdn.simpleicons.org/python"> </a>
 <img align="right" alt="Stars Badge" src="https://img.shields.io/github/stars/jdsherbert/Wwise-Soundbank-XML-Parser?label=%E2%AD%90"/>

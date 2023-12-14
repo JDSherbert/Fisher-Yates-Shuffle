@@ -40,7 +40,7 @@ The Fisher-Yates shuffle, also known as the Knuth shuffle, is a popular algorith
 
 Where possible, I have provided the means to shuffle elements in-place without requiring additional memory (for performance focused languages like C, C++, and C#, which are normally used in game engines like Unreal Engine or Unity). In other languages that aren't so performance critical, I've provided the means to simply copy the array and then shuffle the copy instead.
 
-In implementations where we can use Tuple Deconstruction, the time complexity is O(n), where n is the size of the array, as each element is visited and swapped once. Some languages do not support this, and usage (or non-usage) of this technique has been docuented in comments where required.
+In implementations where we can use Tuple Deconstruction, the time complexity is O(n), where n is the size of the array, as each element is visited and swapped once. Some languages do not support this, and usage (or non-usage) of this technique has been documented in comments where required. Where it cannot be used, we clone the variable to be swapped before assigning iot to its new index, and thus the complexity both specially and temporally increases to O(n+2) as we need to clone and then reassign the variable.
 
 It follows a common set of steps:
 

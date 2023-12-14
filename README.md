@@ -15,6 +15,7 @@
   <a href = "https://www.typescriptlang.org/docs/"> <img align="left" img height="40" img width="40" src="https://cdn.simpleicons.org/typescript"> </a>
   <a href = "https://www.lua.org/docs.html"> <img align="left" height="40" img width="40" src="https://cdn.simpleicons.org/lua"> </a>
   <a href = "https://www.python.org/"> <img align="left" img height="40" img width="40" src="https://cdn.simpleicons.org/python"> </a>
+  <a href = "https://ruby-doc.org/"> <img align="left" img height="40" img width="40" src="https://cdn.simpleicons.org/ruby"> </a>
 <img align="right" alt="Stars Badge" src="https://img.shields.io/github/stars/jdsherbert/Fisher-Yates-Shuffle?label=%E2%AD%90"/>
 <img align="right" alt="Forks Badge" src="https://img.shields.io/github/forks/jdsherbert/Fisher-Yates-Shuffle?label=%F0%9F%8D%B4"/>
 <img align="right" alt="Watchers Badge" src="https://img.shields.io/github/watchers/jdsherbert/Fisher-Yates-Shuffle?label=%F0%9F%91%81%EF%B8%8F"/>

@@ -25,6 +25,9 @@
 <!-- Header End --> 
 
 -----------------------------------------------------------------------
+
+<a href=""> 
+  <img align="left" alt="C++ Template" src="https://img.shields.io/badge/Algorithm%20Implementation-black?style=for-the-badge&logo=cpp&logoColor=white&color=black&labelColor=black"> </a>
   
 <a href="https://choosealicense.com/licenses/mit/"> 
   <img align="right" alt="License" src="https://img.shields.io/badge/License%20:%20MIT-black?style=for-the-badge&logo=mit&logoColor=white&color=black&labelColor=black"> </a>
